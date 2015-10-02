@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1941FE5519D3D2BA009ABAE9 /* TransactionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1941FE5419D3D2BA009ABAE9 /* TransactionsViewController.m */; };
+		1941FE5719D3DAFF009ABAE9 /* depArrow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1941FE5619D3DAFF009ABAE9 /* depArrow.jpg */; };
+		1941FE5919D3DB29009ABAE9 /* deposit.png in Resources */ = {isa = PBXBuildFile; fileRef = 1941FE5819D3DB29009ABAE9 /* deposit.png */; };
+		1941FE5B19D3DD97009ABAE9 /* withdraw.png in Resources */ = {isa = PBXBuildFile; fileRef = 1941FE5A19D3DD97009ABAE9 /* withdraw.png */; };
+		1941FE5E19D3E1F6009ABAE9 /* BankAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 1941FE5D19D3E1F6009ABAE9 /* BankAccount.m */; };
+		198184A019C15F74000233F9 /* BalanceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1981849F19C15F74000233F9 /* BalanceModel.m */; };
+		19B8321519BEC61C000012B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B8321419BEC61C000012B1 /* Foundation.framework */; };
+		19B8321719BEC61C000012B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B8321619BEC61C000012B1 /* CoreGraphics.framework */; };
+		19B8321919BEC61C000012B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B8321819BEC61C000012B1 /* UIKit.framework */; };
+		19B8321F19BEC61C000012B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19B8321D19BEC61C000012B1 /* InfoPlist.strings */; };
+		19B8322119BEC61C000012B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B8322019BEC61C000012B1 /* main.m */; };
+		19B8322519BEC61C000012B1 /* BankAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B8322419BEC61C000012B1 /* BankAppDelegate.m */; };
+		19B8322819BEC61C000012B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B8322619BEC61C000012B1 /* Main.storyboard */; };
+		19B8322B19BEC61C000012B1 /* BankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B8322A19BEC61C000012B1 /* BankViewController.m */; };
+		19B8322D19BEC61C000012B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B8322C19BEC61C000012B1 /* Images.xcassets */; };
+		19B8323419BEC61C000012B1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B8323319BEC61C000012B1 /* XCTest.framework */; };
+		19B8323519BEC61C000012B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B8321419BEC61C000012B1 /* Foundation.framework */; };
+		19B8323619BEC61C000012B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B8321819BEC61C000012B1 /* UIKit.framework */; };
+		19B8323E19BEC61C000012B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19B8323C19BEC61C000012B1 /* InfoPlist.strings */; };
+		19B8324019BEC61C000012B1 /* Assignment1pracTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B8323F19BEC61C000012B1 /* Assignment1pracTests.m */; };
+		A8AF354419D36A1C00EFE9BA /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AF354319D36A1C00EFE9BA /* PasswordViewController.m */; };
+		A8AF354919D36B8700EFE9BA /* downarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A8AF354519D36B8700EFE9BA /* downarrow.png */; };
+		A8AF354A19D36B8700EFE9BA /* leftarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A8AF354619D36B8700EFE9BA /* leftarrow.png */; };
+		A8AF354B19D36B8700EFE9BA /* uparrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A8AF354719D36B8700EFE9BA /* uparrow.png */; };
+		A8AF354C19D36B8700EFE9BA /* rightarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A8AF354819D36B8700EFE9BA /* rightarrow.png */; };
+		A8AF354E19D370FC00EFE9BA /* Incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = A8AF354D19D370FC00EFE9BA /* Incorrect.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19B8323719BEC61C000012B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19B8320919BEC61C000012B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B8321019BEC61C000012B1;
+			remoteInfo = Assignment1prac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1941FE5319D3D2BA009ABAE9 /* TransactionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionsViewController.h; sourceTree = "<group>"; };
+		1941FE5419D3D2BA009ABAE9 /* TransactionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionsViewController.m; sourceTree = "<group>"; };
+		1941FE5619D3DAFF009ABAE9 /* depArrow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = depArrow.jpg; sourceTree = "<group>"; };
+		1941FE5819D3DB29009ABAE9 /* deposit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deposit.png; sourceTree = "<group>"; };
+		1941FE5A19D3DD97009ABAE9 /* withdraw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = withdraw.png; sourceTree = "<group>"; };
+		1941FE5C19D3E1F6009ABAE9 /* BankAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankAccount.h; sourceTree = "<group>"; };
+		1941FE5D19D3E1F6009ABAE9 /* BankAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankAccount.m; sourceTree = "<group>"; };
+		1981849E19C15F74000233F9 /* BalanceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalanceModel.h; sourceTree = "<group>"; };
+		1981849F19C15F74000233F9 /* BalanceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BalanceModel.m; sourceTree = "<group>"; };
+		19B8321119BEC61C000012B1 /* Assignment1_dylanwatts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment1_dylanwatts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B8321419BEC61C000012B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		19B8321619BEC61C000012B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		19B8321819BEC61C000012B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		19B8321C19BEC61C000012B1 /* Assignment1_dylanwatts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Assignment1_dylanwatts-Info.plist"; sourceTree = "<group>"; };
+		19B8321E19BEC61C000012B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		19B8322019BEC61C000012B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19B8322219BEC61C000012B1 /* Assignment1_dylanwatts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Assignment1_dylanwatts-Prefix.pch"; sourceTree = "<group>"; };
+		19B8322319BEC61C000012B1 /* BankAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankAppDelegate.h; sourceTree = "<group>"; };
+		19B8322419BEC61C000012B1 /* BankAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankAppDelegate.m; sourceTree = "<group>"; };
+		19B8322719BEC61C000012B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19B8322919BEC61C000012B1 /* BankViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankViewController.h; sourceTree = "<group>"; };
+		19B8322A19BEC61C000012B1 /* BankViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankViewController.m; sourceTree = "<group>"; };
+		19B8322C19BEC61C000012B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		19B8323219BEC61C000012B1 /* Assignment1_dylanwattsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment1_dylanwattsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B8323319BEC61C000012B1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		19B8323B19BEC61C000012B1 /* Assignment1_dylanwattsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Assignment1_dylanwattsTests-Info.plist"; sourceTree = "<group>"; };
+		19B8323D19BEC61C000012B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		19B8323F19BEC61C000012B1 /* Assignment1pracTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assignment1pracTests.m; sourceTree = "<group>"; };
+		A8AF354219D36A1C00EFE9BA /* PasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordViewController.h; sourceTree = "<group>"; };
+		A8AF354319D36A1C00EFE9BA /* PasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordViewController.m; sourceTree = "<group>"; };
+		A8AF354519D36B8700EFE9BA /* downarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downarrow.png; sourceTree = "<group>"; };
+		A8AF354619D36B8700EFE9BA /* leftarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftarrow.png; sourceTree = "<group>"; };
+		A8AF354719D36B8700EFE9BA /* uparrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uparrow.png; sourceTree = "<group>"; };
+		A8AF354819D36B8700EFE9BA /* rightarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightarrow.png; sourceTree = "<group>"; };
+		A8AF354D19D370FC00EFE9BA /* Incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Incorrect.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19B8320E19BEC61C000012B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B8321719BEC61C000012B1 /* CoreGraphics.framework in Frameworks */,
+				19B8321919BEC61C000012B1 /* UIKit.framework in Frameworks */,
+				19B8321519BEC61C000012B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B8322F19BEC61C000012B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B8323419BEC61C000012B1 /* XCTest.framework in Frameworks */,
+				19B8323619BEC61C000012B1 /* UIKit.framework in Frameworks */,
+				19B8323519BEC61C000012B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19B8320819BEC61C000012B1 = {
+			isa = PBXGroup;
+			children = (
+				19B8321A19BEC61C000012B1 /* Assignment1prac */,
+				19B8323919BEC61C000012B1 /* Assignment1pracTests */,
+				19B8321319BEC61C000012B1 /* Frameworks */,
+				19B8321219BEC61C000012B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19B8321219BEC61C000012B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19B8321119BEC61C000012B1 /* Assignment1_dylanwatts.app */,
+				19B8323219BEC61C000012B1 /* Assignment1_dylanwattsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19B8321319BEC61C000012B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19B8321419BEC61C000012B1 /* Foundation.framework */,
+				19B8321619BEC61C000012B1 /* CoreGraphics.framework */,
+				19B8321819BEC61C000012B1 /* UIKit.framework */,
+				19B8323319BEC61C000012B1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19B8321A19BEC61C000012B1 /* Assignment1prac */ = {
+			isa = PBXGroup;
+			children = (
+				1981849E19C15F74000233F9 /* BalanceModel.h */,
+				1981849F19C15F74000233F9 /* BalanceModel.m */,
+				19B8322319BEC61C000012B1 /* BankAppDelegate.h */,
+				19B8322419BEC61C000012B1 /* BankAppDelegate.m */,
+				19B8322619BEC61C000012B1 /* Main.storyboard */,
+				1941FE5319D3D2BA009ABAE9 /* TransactionsViewController.h */,
+				1941FE5419D3D2BA009ABAE9 /* TransactionsViewController.m */,
+				A8AF354219D36A1C00EFE9BA /* PasswordViewController.h */,
+				A8AF354319D36A1C00EFE9BA /* PasswordViewController.m */,
+				19B8322919BEC61C000012B1 /* BankViewController.h */,
+				19B8322A19BEC61C000012B1 /* BankViewController.m */,
+				1941FE5C19D3E1F6009ABAE9 /* BankAccount.h */,
+				1941FE5D19D3E1F6009ABAE9 /* BankAccount.m */,
+				19B8322C19BEC61C000012B1 /* Images.xcassets */,
+				19B8321B19BEC61C000012B1 /* Supporting Files */,
+			);
+			path = Assignment1prac;
+			sourceTree = "<group>";
+		};
+		19B8321B19BEC61C000012B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1941FE5A19D3DD97009ABAE9 /* withdraw.png */,
+				1941FE5819D3DB29009ABAE9 /* deposit.png */,
+				1941FE5619D3DAFF009ABAE9 /* depArrow.jpg */,
+				A8AF354D19D370FC00EFE9BA /* Incorrect.png */,
+				A8AF354519D36B8700EFE9BA /* downarrow.png */,
+				A8AF354619D36B8700EFE9BA /* leftarrow.png */,
+				A8AF354719D36B8700EFE9BA /* uparrow.png */,
+				A8AF354819D36B8700EFE9BA /* rightarrow.png */,
+				19B8321C19BEC61C000012B1 /* Assignment1_dylanwatts-Info.plist */,
+				19B8321D19BEC61C000012B1 /* InfoPlist.strings */,
+				19B8322019BEC61C000012B1 /* main.m */,
+				19B8322219BEC61C000012B1 /* Assignment1_dylanwatts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19B8323919BEC61C000012B1 /* Assignment1pracTests */ = {
+			isa = PBXGroup;
+			children = (
+				19B8323F19BEC61C000012B1 /* Assignment1pracTests.m */,
+				19B8323A19BEC61C000012B1 /* Supporting Files */,
+			);
+			path = Assignment1pracTests;
+			sourceTree = "<group>";
+		};
+		19B8323A19BEC61C000012B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19B8323B19BEC61C000012B1 /* Assignment1_dylanwattsTests-Info.plist */,
+				19B8323C19BEC61C000012B1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19B8321019BEC61C000012B1 /* Assignment1_dylanwatts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B8324319BEC61C000012B1 /* Build configuration list for PBXNativeTarget "Assignment1_dylanwatts" */;
+			buildPhases = (
+				19B8320D19BEC61C000012B1 /* Sources */,
+				19B8320E19BEC61C000012B1 /* Frameworks */,
+				19B8320F19BEC61C000012B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Assignment1_dylanwatts;
+			productName = Assignment1prac;
+			productReference = 19B8321119BEC61C000012B1 /* Assignment1_dylanwatts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19B8323119BEC61C000012B1 /* Assignment1_dylanwattsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B8324619BEC61C000012B1 /* Build configuration list for PBXNativeTarget "Assignment1_dylanwattsTests" */;
+			buildPhases = (
+				19B8322E19BEC61C000012B1 /* Sources */,
+				19B8322F19BEC61C000012B1 /* Frameworks */,
+				19B8323019BEC61C000012B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19B8323819BEC61C000012B1 /* PBXTargetDependency */,
+			);
+			name = Assignment1_dylanwattsTests;
+			productName = Assignment1pracTests;
+			productReference = 19B8323219BEC61C000012B1 /* Assignment1_dylanwattsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19B8320919BEC61C000012B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Bank;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Dylan;
+				TargetAttributes = {
+					19B8323119BEC61C000012B1 = {
+						TestTargetID = 19B8321019BEC61C000012B1;
+					};
+				};
+			};
+			buildConfigurationList = 19B8320C19BEC61C000012B1 /* Build configuration list for PBXProject "Assignment1_dylanwatts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19B8320819BEC61C000012B1;
+			productRefGroup = 19B8321219BEC61C000012B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19B8321019BEC61C000012B1 /* Assignment1_dylanwatts */,
+				19B8323119BEC61C000012B1 /* Assignment1_dylanwattsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19B8320F19BEC61C000012B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B8322D19BEC61C000012B1 /* Images.xcassets in Resources */,
+				A8AF354E19D370FC00EFE9BA /* Incorrect.png in Resources */,
+				A8AF354A19D36B8700EFE9BA /* leftarrow.png in Resources */,
+				A8AF354B19D36B8700EFE9BA /* uparrow.png in Resources */,
+				A8AF354C19D36B8700EFE9BA /* rightarrow.png in Resources */,
+				19B8321F19BEC61C000012B1 /* InfoPlist.strings in Resources */,
+				19B8322819BEC61C000012B1 /* Main.storyboard in Resources */,
+				1941FE5919D3DB29009ABAE9 /* deposit.png in Resources */,
+				1941FE5B19D3DD97009ABAE9 /* withdraw.png in Resources */,
+				A8AF354919D36B8700EFE9BA /* downarrow.png in Resources */,
+				1941FE5719D3DAFF009ABAE9 /* depArrow.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B8323019BEC61C000012B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B8323E19BEC61C000012B1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19B8320D19BEC61C000012B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B8322519BEC61C000012B1 /* BankAppDelegate.m in Sources */,
+				1941FE5E19D3E1F6009ABAE9 /* BankAccount.m in Sources */,
+				19B8322119BEC61C000012B1 /* main.m in Sources */,
+				19B8322B19BEC61C000012B1 /* BankViewController.m in Sources */,
+				1941FE5519D3D2BA009ABAE9 /* TransactionsViewController.m in Sources */,
+				198184A019C15F74000233F9 /* BalanceModel.m in Sources */,
+				A8AF354419D36A1C00EFE9BA /* PasswordViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B8322E19BEC61C000012B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B8324019BEC61C000012B1 /* Assignment1pracTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19B8323819BEC61C000012B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19B8321019BEC61C000012B1 /* Assignment1_dylanwatts */;
+			targetProxy = 19B8323719BEC61C000012B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19B8321D19BEC61C000012B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B8321E19BEC61C000012B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		19B8322619BEC61C000012B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B8322719BEC61C000012B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19B8323C19BEC61C000012B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B8323D19BEC61C000012B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19B8324119BEC61C000012B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19B8324219BEC61C000012B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19B8324419BEC61C000012B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Assignment1prac/Assignment1_dylanwatts-Prefix.pch";
+				INFOPLIST_FILE = "Assignment1prac/Assignment1_dylanwatts-Info.plist";
+				PRODUCT_NAME = Assignment1_dylanwatts;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		19B8324519BEC61C000012B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Assignment1prac/Assignment1_dylanwatts-Prefix.pch";
+				INFOPLIST_FILE = "Assignment1prac/Assignment1_dylanwatts-Info.plist";
+				PRODUCT_NAME = Assignment1_dylanwatts;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		19B8324719BEC61C000012B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Assignment1prac.app/Assignment1prac";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Assignment1prac/Assignment1prac-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Assignment1pracTests/Assignment1_dylanwattsTests-Info.plist";
+				PRODUCT_NAME = Assignment1_dylanwattsTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		19B8324819BEC61C000012B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Assignment1prac.app/Assignment1prac";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Assignment1prac/Assignment1prac-Prefix.pch";
+				INFOPLIST_FILE = "Assignment1pracTests/Assignment1_dylanwattsTests-Info.plist";
+				PRODUCT_NAME = Assignment1_dylanwattsTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19B8320C19BEC61C000012B1 /* Build configuration list for PBXProject "Assignment1_dylanwatts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B8324119BEC61C000012B1 /* Debug */,
+				19B8324219BEC61C000012B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B8324319BEC61C000012B1 /* Build configuration list for PBXNativeTarget "Assignment1_dylanwatts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B8324419BEC61C000012B1 /* Debug */,
+				19B8324519BEC61C000012B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B8324619BEC61C000012B1 /* Build configuration list for PBXNativeTarget "Assignment1_dylanwattsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B8324719BEC61C000012B1 /* Debug */,
+				19B8324819BEC61C000012B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19B8320919BEC61C000012B1 /* Project object */;
+}
